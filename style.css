@@ -17,13 +17,4 @@ body{
     background-image: url("https://upload.hicoria.com/files/df5BcryA.jpg");
     color: white;
 }
-.buttons {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background: transparent;
-}
-.button.diamond {
-    border: 3px solid #44ebe5;
-}   
+
