@@ -18,3 +18,23 @@ body{
     color: white;
 }
 
+.bx2{
+    color:black; 
+    background-color:#F3ECEA; 
+    padding:24px;
+}
+.titlebx{
+    margin: 4px;
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.subbx{
+    margin: 4px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.titleforbx{
+    margin-top: -100px;
+    font-size: 50px;
+    font-family: 'STIX Two Math', serif;
+}
