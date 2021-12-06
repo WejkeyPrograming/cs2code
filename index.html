@@ -29,37 +29,9 @@
         <div>
             <p>Tak a je to tu znovu. Tento web nefungoval tak 4 mesiace a znovu sa s novým tímom do neho ideme pustiť. Uvidíme čo to bude teraz :D</p>
             <p>— Wejk-team</p>
-            <p class="styletimer">Údržba skončí za</p><p class="styletimer" id="timer"></p>
         </div>
     </article>
 
 
-<script>
-var countDownDate = new Date("December 7s, 2021 15:00:00").getTime();
 
-
-var x = setInterval(function() {
-
-
-  var now = new Date().getTime();
-
-
-  var distance = countDownDate - now;
-
-
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  document.getElementById("timer").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-
-
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("timer").innerHTML = "12.7.2021";
-  }
-}, 1000);
-</script>
 </body></html>
